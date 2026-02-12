@@ -1,0 +1,9 @@
+services:
+  ai-assistant:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - .:/app
