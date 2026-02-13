@@ -79,9 +79,9 @@ This ensures compliance with the **Single Responsibility Principle
 
 The project follows:
 
--   SOLID Principles\
--   Clean Architecture\
--   Design Patterns (Factory + Strategy)\
+-   SOLID Principles
+-   Clean Architecture
+-   Design Patterns (Factory + Strategy)
 
 ### 📁 Project Structure
 
@@ -108,8 +108,8 @@ Contains the domain entities and business rules.
 
 Defines abstractions such as `ILLMProvider`.
 
-This enables: - Dependency Inversion\
-- Easy model replacement\
+This enables: - Dependency Inversion
+- Easy model replacement
 - High extensibility
 
 The `Assistant` depends on `ILLMProvider`, not on concrete
@@ -125,14 +125,14 @@ Implements the frontend using **Streamlit**.
 
 ### Google SDK
 
--   Uses native function calling\
--   Automatically handles tool execution and response generation\
+-   Uses native function calling
+-   Automatically handles tool execution and response generation
 -   More direct integration
 
 ### LangChain
 
--   Provides explicit control over chains and tool invocation\
--   Requires manual configuration of tool behavior\
+-   Provides explicit control over chains and tool invocation
+-   Requires manual configuration of tool behavior
 -   Greater flexibility for complex agent workflows
 
 ------------------------------------------------------------------------
@@ -141,9 +141,9 @@ Implements the frontend using **Streamlit**.
 
 This challenge reinforced:
 
--   Clean architecture organization for LLM-based systems\
+-   Clean architecture organization for LLM-based systems
 -   Practical differences between native SDK integration and agent
-    frameworks like LangChain\
+    frameworks like LangChain
 -   Updated usage patterns from the latest Google SDK documentation
 
 It also highlighted API rate-limit considerations when working with
@@ -155,11 +155,11 @@ Google AI Studio.
 
 With additional time, I would:
 
--   Implement unit tests and integration tests\
--   Add automated provider connectivity validation at startup\
--   Improve error handling with custom exception classes\
--   Add structured logging\
--   Expand mathematical parsing capabilities\
+-   Implement unit tests and integration tests
+-   Add automated provider connectivity validation at startup
+-   Improve error handling with custom exception classes
+-   Add structured logging
+-   Expand mathematical parsing capabilities
 -   Add additional tools (e.g., weather API or public data API)
 
 ------------------------------------------------------------------------
