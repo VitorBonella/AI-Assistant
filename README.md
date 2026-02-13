@@ -166,6 +166,13 @@ With additional time, I would:
 
 ## ⏱️ Development Context
 
-This solution was developed within a limited timeframe. The focus was on
-delivering a clean, functional, and well-structured implementation
-aligned with the evaluation criteria.
+The challenge email was received on **February 12, 2026 (4:32 PM)**.
+
+Due to a previously scheduled trip during the Brazilian Carnival holiday
+(February 14--18, 2026), I had limited internet access during that
+period. As a result, the implementation was completed within a short
+development window outside of those dates.
+
+The solution was intentionally focused on delivering a clean,
+well-structured, and functional implementation within the available
+timeframe, prioritizing architecture clarity and separation of concerns.
