@@ -21,7 +21,7 @@ principles, LLM integration, and tool orchestration.
 
 -   Docker
 -   Docker Compose
--   A Google AI Studio API Key with access to the model:
+-   A [Google AI Studio API Key](https://aistudio.google.com/app/api-keys) with access to the model:
     -   `gemini-2.5-flash-lite`
 
 ⚠️ **Do not share your API key publicly.**
