@@ -6,7 +6,8 @@ This project implements a simple AI Assistant capable of answering
 general questions using a Large Language Model (LLM) and invoking an
 external calculator tool when a mathematical question is detected.
 
-The assistant decides whether to: - Respond directly using an LLM\
+The assistant decides whether to: 
+- Respond directly using an LLM
 - Invoke a calculator tool to compute exact numerical results before
 answering
 
@@ -147,7 +148,7 @@ This challenge reinforced:
 -   Updated usage patterns from the latest Google SDK documentation
 
 It also highlighted API rate-limit considerations when working with
-Google AI Studio.
+Google AI Studio Free Tier.
 
 ------------------------------------------------------------------------
 
@@ -156,7 +157,7 @@ Google AI Studio.
 With additional time, I would:
 
 -   Implement unit tests and integration tests
--   Add automated provider connectivity validation at startup
+-   Add automated provider connectivity validation
 -   Improve error handling with custom exception classes
 -   Add structured logging
 -   Expand mathematical parsing capabilities
